@@ -1,0 +1,18 @@
+.RepoListItem {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-bottom: 1rem;
+  max-width: 20rem;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.RepoListItem img {
+  border-radius: 50%;
+  height: 50px;
+}
+
+.LikeButton {
+  margin-top: 0.5rem;
+}
